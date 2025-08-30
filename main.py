@@ -115,9 +115,6 @@ class WebsiteTester:
         """
         # 
         self.driver.get(urlsiteserver)
-        # driver.execute_script("createViaje()")
-        # self.signUp("my_username10", "user_contact", "user_password")
-        # self.createSchedule()
 
     def findElementandClick(self, tofindbuttonoratext):
         # Accepts Button text to find and click
@@ -252,9 +249,9 @@ class WebsiteTester:
 tester = WebsiteTester()
 
 # tester.signUp("my_username11", "user_contact", "user_password")
-tester.signUp("my_username22", "user_contact", "user_password")
+tester.signUp("my_username24", "user_contact", "user_password")
 tester.createSchedule( methodplace = 'look',originplace='New York', destinationplace='Washington DC', dateplace='11-22-2025', detailsplace='No luggage, just me'  )
 time.sleep(5)
 tester.logOut()
-tester.signUp("my_username23", "user_contact", "user_password")
+tester.signUp("my_username25", "user_contact", "user_password")
 tester.createSchedule( methodplace = 'look',originplace='New York2', destinationplace='Washington DC', dateplace='11-22-2025', detailsplace='No luggage, just me'  )
